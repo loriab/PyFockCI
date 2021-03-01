@@ -6,6 +6,7 @@ setup(
     author='Shannon E. Houck',
     author_email='shouck@vt.edu',
     packages=['sf_ip_ea', 'sf_ip_ea.test'],
+    include_package_data=True,
     scripts=[],
     url='',
     license='LICENSE.txt',
