@@ -16,6 +16,6 @@ def set_up():
     import psi4
 
     psi4.core.clean()
-    psi4.core.clean_timers()
+    # psi4.core.clean_timers()  # uncomment when v1.4 is lowest supported
     psi4.core.clean_options()
     psi4.set_output_file("pytest_output.dat", True)
