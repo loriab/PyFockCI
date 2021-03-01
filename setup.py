@@ -3,10 +3,9 @@ import setuptools
 
 setup(
     name='sf_ip_ea',
-    version='0.1.0',
+    version='0.2.0',
     author='Shannon E. Houck',
     author_email='shouck@vt.edu',
-    #packages=['sf_ip_ea', 'sf_ip_ea.test'],
     packages=setuptools.find_packages(),
     include_package_data=True,
     scripts=[],
